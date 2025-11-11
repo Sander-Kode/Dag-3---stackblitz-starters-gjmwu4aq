@@ -1,0 +1,46 @@
+/* External-CSS */
+/* 
+CSS Selector 
+CSS Declaration
+CSS Rule
+property:value;
+*/
+
+header {
+  color: green;
+  background-color: darkslategray;
+  background-size: cover;
+  height: 100px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+  /* flex-direction: column; */
+}
+.navLink {
+  color: darkmagenta;
+  /* Longhand */
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  /* Shorthand */
+  border: 5px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+
+section {
+  height: 100vh;
+}
+
+body {
+  background-color: wheat;
+}
+main {
+  background-color: ;
+}

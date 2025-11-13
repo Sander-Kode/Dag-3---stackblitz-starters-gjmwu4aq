@@ -7,31 +7,24 @@ property:value;
 */
 
 header {
-  color: green;
-  background-color: darkslategray;
-  background-size: cover;
-  height: 100px;
-  /* text-align: center; */
-  display: flex;
-  justify-content: space-between;
+  
 }
 nav {
-  background-color: silver;
-  display: flex;
-  align-items: center;
+  
   /* gap: 20px; */
   /* flex-direction: column; */
 }
+
+.navList {
+
+}
+
 .navLink {
-  color: darkmagenta;
+
   /* Longhand */
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
+
   /* Shorthand */
-  border: 5px solid black;
-  padding: 10px;
-  margin: 20px;
+  
 }
 
 section {

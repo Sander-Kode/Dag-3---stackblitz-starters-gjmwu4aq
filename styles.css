@@ -38,13 +38,22 @@ header {
   
 }
 
-section {
+.section {
   height: 100vh;
+}
+
+.hero {
+  display: flex;
+  
+}
+
+img {
+  max-width: 500px;
 }
 
 body {
   background-color: wheat;
 }
 main {
-  background-color: ;
+ 
 }

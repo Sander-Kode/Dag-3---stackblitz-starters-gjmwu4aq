@@ -29,14 +29,7 @@ header {
   gap: 16px;
 }
 
-.navLink {
-  
 
-  /* Longhand */
-
-  /* Shorthand */
-  
-}
 
 .section {
   height: 100vh;
@@ -79,6 +72,4 @@ img {
 body {
   background-color: wheat;
 }
-main {
- 
-}
+

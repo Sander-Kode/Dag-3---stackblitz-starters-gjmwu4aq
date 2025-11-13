@@ -7,19 +7,30 @@ property:value;
 */
 
 header {
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-nav {
-  
-  /* gap: 20px; */
-  /* flex-direction: column; */
+
+.logo {
+  font-size: 38px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 8px;
 }
+
 
 .navList {
-
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0;
+  gap: 16px;
 }
 
 .navLink {
+  
 
   /* Longhand */
 

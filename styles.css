@@ -44,12 +44,37 @@ header {
 
 .hero {
   display: flex;
-  
+  align-items: center;
 }
 
 img {
-  max-width: 500px;
+  max-width: 100%;
 }
+
+.heroText, 
+.heroImg {
+  width: 50%;
+}
+
+.heroText {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+
+.aboutText, 
+.aboutImg {
+  width: 50%;
+}
+
+.aboutText {
+  text-align: center;
+}
+
 
 body {
   background-color: wheat;
